@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fx-300 Calculator</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/screen.css" />
+    <link rel="stylesheet" href="css/top_row.css" />
+    <link rel="stylesheet" href="css/middle_row.css" />
+    <link rel="stylesheet" href="css/bottom_row.css" />
+    <script src="src/arithmetic.js"></script>
+    <script src="src/keyentries.js"></script>
+    <script src="src/print.js"></script>
+    <script src="src/math.js"></script>
+</head>
+
+<body>
+    <div id="main-content">
+        <header>
+            <h1>Fx-300</h1>
+        </header>
+
+        <!--Calculator Model-->
+        <section id="main_model" onload="equation(null)">
+            <div id="mid-section">
+                <div id="model_name">
+                    <h2>Casio</h2>
+                    <p><span class="fx">fx-300MS</span><span class="SV">S-V.P.A.M.</span></p>
+                </div>
+
+                <div id="solar_panel"></div>
+                <span class="solar_text">two way power</span>
+                <div id="screen">
+                    <div id="indicators">
+                        <output>Indicators</output>
+                    </div>
+                    <div id="equation_field">
+                        <output>Equation</output>
+                    </div>
+                    <div id="result_field">
+                        <output>Output</output>
+                    </div>
+                </div>
+
+                <!--key pad buttons-->
+
+                <div class="key_pad">
+                    <!-- Top row -->
+                    <section id="top_row">
+                        <span class="row">
+                        <div><span>b</span></div>
+                <div><span>b</span></div>
+                <div><span>Replay</span></div>
+                <div><span>b</span></div>
+                <div><span>b</span></div>
+                </span>
+                </section>
+
+                <!--Middle row keypad -->
+                <section id="middle_row">
+                    <span class="row">
+    <div><span>x<sup>-x</sup></span></div>
+            <div><span>nCr</span></div>
+            <div><span>9</span></div>
+            <div><span>DEL</span></div>
+            <div><span>Pol(</span></div>
+            <div><span>x<sup>3</sup></span></div>
+            </span>
+            <span class="row">
+                        <div><span>ab/c</span></div>
+    <div><span>&radic;</span></div>
+    <div><span>x<sup>2</sup></span></div>
+    <div><span>&#94;</span></div>
+    <div><span>log</span></div>
+    <div><span>In</span></div>
+    </span>
+    <span class="row">
+                        <div><span>(&#10134)</span></div>
+    <div><span>.,,,</span></div>
+    <div><span>hyp</span></div>
+    <div><span>sin</span></div>
+    <div><span>cos</span></div>
+    <div><span>tan</span></div>
+    </span>
+    <span class="row">
+                        <div><span>RCL</span></div>
+    <div><span>ENG</span></div>
+    <div><span>&#40;</span></div>
+    <div><span>&#41;</span></div>
+    <div><span>,</span></div>
+    <div><span>M&#10133</span></div>
+    </span>
+
+    </section>
+
+    <!--Bottom Number pad-->
+    <section id="bottom_row">
+        <span class="row">
+        <div><span onclick="charEntry('7');">7</span></div>
+        <div><span onclick="charEntry('8');">8</span></div>
+        <div><span onclick="charEntry('9');">9</span></div>
+        <div><span onclick="charEntry('DEL');">DEL</span></div>
+        <div><span onclick="charEntry('AC');">AC</span></div>
+        </span>
+        <span class="row">
+        <div><span onclick="charEntry('4');">4</span></div>
+        <div><span onclick="charEntry('5');">5</span></div>
+        <div><span onclick="charEntry('6');">6</span></div>
+        <div><span onclick="charEntry('&#10005');">&#10005</span></div>
+        <div><span onclick="charEntry('&#10135');">&#10135</span></div>
+        </span>
+        <span class="row">
+        <div><span onclick="charEntry('1');">1</span></div>
+        <div><span onclick="charEntry('2');">2</span></div>
+        <div><span onclick="charEntry('3');">3</span></div>
+        <div><span onclick="charEntry('&#10133');">&#10133</span></div>
+        <div><span onclick="charEntry('&#10134');">&#10134</span></div>
+        </span>
+        <span class="row">
+		<div><span onclick="charEntry('0');">0</span></div>
+        <div><span onclick="charEntry('.');">.</span></div>
+        <div><span onclick="charEntry('EXP');">EXP</span></div>
+        <div><span onclick="charEntry('Ans');">Ans</span></div>
+        <div><span onclick="charEntry('&#9868');">&#9868</span></div>
+        </span>
+    </section>
+    </div>
+    </div>
+    </section>
+    </div>
+</body>
+
+</html>

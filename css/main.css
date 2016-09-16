@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Digit;
+    src: url('css/font/digit.ttf');
+}
+@font-face {
+    font-family: Digital;
+    src: url(/css/font/digital-7.ttf);
+}
+body {
+    background-image: url("http://www.designbash.com/wp-content/uploads/2010/01/wood-table-texture-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#main_model {
+    width: 6.8cm;
+    height: 13.4cm;
+    margin: auto;
+    padding: 0.5cm;
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
+    border-radius: 0.3cm 0.3cm 0.8cm 0.8cm;
+}
+#mid-section {
+    width: 255.177px;
+    margin: auto;
+}
+#model_name {
+    display: inline-block;
+    float: left;
+    width: 2cm;
+    height: 1.8cm;
+    padding: 0;
+    text-align: center;
+}
+#model_name h2 {
+    font-family: Verdana, san-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 -0.10cm 0;
+    text-align: center;
+    font-size: 0.4cm;
+}
+#model_name p {
+    padding: 0;
+    margin: 0;
+    margin-top: 0.4cm;
+}
+#model_name p .fx {
+    font-size: 0.35cm;
+    clear: both;
+    display: inline-block;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+}
+#model_name p .SV {
+    font-size: 0.32cm;
+    font-weight: bold;
+    text-align: center;
+    font-family: verdana, ubuntu, sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    color: red;
+}
+#solar_panel {
+    display: inline-block;
+    float: right;
+    height: 1.3cm;
+    border: solid 1px black;
+    width: 3.7cm;
+    background-image: url("https://www.colourbox.com/preview/3892949-metal-surface-with-iron-texture-backdrop.jpg");
+}
+.solar_text {
+    display: inline-block;
+    clear: right;
+    float: right;
+    font-family: Verdana, monospace;
+    font-size: 0.2cm;
+    line-height: 0.3cm;
+    margin-top: 0.1cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.key_pad {
+    width: 6.8cm;
+    margin: auto;
+    padding: 0;
+}
+.row {
+    display: inline-block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+.row sup {
+    font-size: 65%;
+}
+.row span {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10%;
+}
+.row div:hover,
+.row div span:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

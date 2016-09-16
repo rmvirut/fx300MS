@@ -1,0 +1,45 @@
+#top_row {
+    font-family: monospace;
+}
+#top_row .row{
+    padding: 0;
+    margin: 0;
+}
+#top_row .row div {
+    display: inline-block;
+    width: 0.8cm;
+    height: 0.4cm;
+    background-color: lightgrey;
+    border-radius: 0.25cm;
+    margin: auto 0.05cm;
+}
+#top_row .row div span {
+    display: none;
+}
+#top_row .row div:first-child, #top_row .row div:last-child{
+    position: relative;
+    top: 0.5cm;
+    margin: initial 0;
+}
+#top_row .row div:nth-child(2), #top_row .row div:nth-child(4){
+    position: relative;
+    top: 0.6cm;
+}
+#top_row .row div:nth-child(3) {
+    width: 2cm;
+    height: 1.6cm;
+    border-radius: 100% 100% 120% 120%;
+    display: inline-block;
+    position: relative;
+    bottom: -0.28cm;
+}
+#top_row .row div:nth-child(3) span{
+    display: inline;
+    clear: none;
+    text-transform: uppercase;
+    color: lightgray;
+    position: relative;
+    top: 0.6cm;
+    font-size: 0.3cm;
+    font-weight: bold;
+}

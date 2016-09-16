@@ -1,0 +1,26 @@
+#screen {
+    display: inline-block;
+    clear: both;
+    width: 6.65cm;
+    height: 1.75cm;
+    margin: 0.01cm auto;
+    border: black 1px solid;
+    background-color: #5C5C2E;
+    padding: 2.5px;
+    text-align: center;
+    border: 0;
+    background-color: #5C5C2E;
+}
+#screen div {
+    width: 99.5%;
+    display: inline-block;
+    margin: 0;
+}
+#indicators {
+    font-size: 9px;
+    margin-top: cm;
+}
+#result_field, #equation_field  {
+    font-family: Digital;
+    color: #000000;
+}
