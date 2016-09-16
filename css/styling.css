@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Digit;
+    src: url('css/font/digit.ttf');
+}
+@font-face {
+    font-family: Digital;
+    src: url(/css/font/digital-7.ttf);
+}
+body {
+    background-image: url("http://www.designbash.com/wp-content/uploads/2010/01/wood-table-texture-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#main_model {
+    width: 6.8cm;
+    height: 13.4cm;
+    margin: auto;
+    padding: 0.5cm;
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
+    border-radius: 0.3cm 0.3cm 0.8cm 0.8cm;
+}
+#mid-section {
+    width: 255.177px;
+    margin: auto;
+}
+#model_name {
+    display: inline-block;
+    float: left;
+    width: 2cm;
+    height: 1.8cm;
+    padding: 0;
+    text-align: center;
+}
+#model_name h2 {
+    font-family: Verdana, san-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 -0.10cm 0;
+    text-align: center;
+    font-size: 0.4cm;
+}
+#model_name p {
+    padding: 0;
+    margin: 0;
+    margin-top: 0.4cm;
+}
+#model_name p .fx {
+    font-size: 0.35cm;
+    clear: both;
+    display: inline-block;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+}
+#model_name p .SV {
+    font-size: 0.32cm;
+    font-weight: bold;
+    text-align: center;
+    font-family: verdana, ubuntu, sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    color: red;
+}
+#solar_panel {
+    display: inline-block;
+    float: right;
+    height: 1.3cm;
+    border: solid 1px black;
+    width: 3.7cm;
+    background-image: url("https://www.colourbox.com/preview/3892949-metal-surface-with-iron-texture-backdrop.jpg");
+}
+.solar_text {
+    display: inline-block;
+    clear: right;
+    float: right;
+    font-family: Verdana, monospace;
+    font-size: 0.2cm;
+    line-height: 0.3cm;
+    margin-top: 0.1cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.key_pad {
+    width: 6.8cm;
+    margin: auto;
+    padding: 0;
+}
+.row {
+    display: inline-block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+.row sup {
+    font-size: 65%;
+}
+.row span {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10%;
+}
+.row div:hover,
+.row div span:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/*Calculator Screen/Display*/
+#screen {
+    display: inline-block;
+    clear: both;
+    width: 6.65cm;
+    height: 1.75cm;
+    margin: 0.01cm auto;
+    border: black 1px solid;
+    background-color: #5C5C2E;
+    padding: 2.5px;
+    text-align: center;
+    border: 0;
+    background-color: #5C5C2E;
+}
+#screen div {
+    width: 99.5%;
+    display: inline-block;
+    margin: 0;
+}
+#indicators {
+    font-size: 9px;
+    margin-top: cm;
+}
+#result_field, #equation_field  {
+    font-family: Digital;
+    color: #000000;
+}
+
+
+
+/*Top Row Styling*/
+#top_row {
+    font-family: monospace;
+}
+#top_row .row{
+    padding: 0;
+    margin: 0;
+}
+#top_row .row div {
+    display: inline-block;
+    width: 0.8cm;
+    height: 0.4cm;
+    background-color: lightgrey;
+    border-radius: 0.25cm;
+    margin: auto 0.05cm;
+}
+#top_row .row div span {
+    display: none;
+}
+#top_row .row div:first-child, #top_row .row div:last-child{
+    position: relative;
+    top: 0.5cm;
+    margin: initial 0;
+}
+#top_row .row div:nth-child(2), #top_row .row div:nth-child(4){
+    position: relative;
+    top: 0.6cm;
+}
+#top_row .row div:nth-child(3) {
+    width: 2cm;
+    height: 1.6cm;
+    border-radius: 100% 100% 120% 120%;
+    display: inline-block;
+    position: relative;
+    bottom: -0.28cm;
+}
+#top_row .row div:nth-child(3) span{
+    display: inline;
+    clear: none;
+    text-transform: uppercase;
+    color: lightgray;
+    position: relative;
+    top: 0.6cm;
+    font-size: 0.3cm;
+    font-weight: bold;
+}
+
+/*Middle Row Styling*/
+#middle_row {
+    /*margin-bottom: 0.6cm;*/
+    margin-bottom: 20px;
+}
+#middle_row .row div {
+    font-family: "Trebuchet MS", Ubuntu, monospace, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    height:  0.45cm;
+    width: 0.8cm;
+    margin:0 0.1cm 10px 0.1cm;
+    border-radius: 4.5px;
+    background-color: black;
+}
+#middle_row .row div span {
+    padding: 0;
+    margin: 0;
+}
+#middle_row .row:first-child div:nth-child(3), #middle_row .row:first-child div:nth-child(4){
+    visibility: hidden;
+}
+#middle_row .row div:first-child {
+    margin-left: 0cm;
+}
+#middle_row .row div:last-child {
+    margin-right: 0cm;
+}
+
+/*Bottom Row Styling*/
+#bottom_row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", Ubuntu, san-serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+#bottom_row .row div {
+    width: 1cm;
+    height: 0.7cm;
+    display: inline-block;
+    text-align: center;
+    margin: 0cm 0.1cm 0.4cm 0.1cm;
+    border-radius: 2.5px 2.5px 8px 8px;
+    background: gray;
+}
+#bottom_row .row div span {
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+}
+#bottom_row .row:first-child div:nth-child(4), #bottom_row .row:first-child div:last-child{
+    background-color: firebrick;
+}
