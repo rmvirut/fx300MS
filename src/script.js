@@ -6,6 +6,6 @@ function charEntry(character) {
     document.getElementById("equation_field").innerHTML = charString;
 } 
 
-/*still working on reading keyboard enries*/
+/*still working on reading keyboard entries*/
 
 
