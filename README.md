@@ -10,4 +10,4 @@ Just follow the link to repli and hit run to see the live version.
 
 The fx300MS is one of the most popular scientific calculators from Casio. Pretty much any student that's had a brush with science at a college or high school level has come across one of these guys. In my experience, they last for as long as you don't use them.
 
-![The Casio fx300MS scientific calculator](./fx300MSphoto.jpg "Fx-300MS)
+![The Casio fx300MS scientific calculator](https://i.ibb.co/7ttzCxv/fx300-MSphoto.jpg)
