@@ -2,10 +2,8 @@
 Personal CSS design project meant to learn about learning and using vanilla css.
 
 ## How to Run
-Just hti the repl.it badge to clone and run
- 
- [![Run on Repl.it](https://repl.it/badge/github/rmvirut/fx300MS)](https://repl.it/github/rmvirut/fx300MS)
-
+Just hit the repl.it badge to clone and run 
+[![Run on Repl.it](https://repl.it/badge/github/rmvirut/fx300MS)](https://repl.it/github/rmvirut/fx300MS)
 
 *Run without cloning?*
 [Run fx300MS on Repl.it](https://repl.it/@rmvirut/fx300MS) 
