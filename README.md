@@ -2,13 +2,13 @@
 Personal CSS design project meant to learn about learning and using vanilla css.
 
 ## How to Run
-Just follow the link to repli and hit run to see the live version.
+Just hti the repl.it badge to clone and run
  
  [![Run on Repl.it](https://repl.it/badge/github/rmvirut/fx300MS)](https://repl.it/github/rmvirut/fx300MS)
 
 
-Just in case the above markdown doesn't render, here's a direct link.
-[Run fx300MS on Repl.it](https://repl.it/@rmvirut/fx300MS) (doesn't require any download)
+*Run without cloning?*
+[Run fx300MS on Repl.it](https://repl.it/@rmvirut/fx300MS) 
 
 ## The Real Thing
 
