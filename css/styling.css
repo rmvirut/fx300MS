@@ -1,3 +1,5 @@
+/* import new fonts */
+
 @font-face {
     font-family: Digit;
     src: url('css/font/digit.ttf');
@@ -6,6 +8,8 @@
     font-family: Digital;
     src: url(/css/font/digital-7.ttf);
 }
+
+/* main styling */
 body {
     background-image: url("http://www.designbash.com/wp-content/uploads/2010/01/wood-table-texture-2.jpg");
     background-repeat: no-repeat;
